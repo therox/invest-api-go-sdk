@@ -4,13 +4,14 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
-	pb "github.com/tinkoff/invest-api-go-sdk/proto"
+	"strings"
+
+	pb "github.com/therox/invest-api-go-sdk/proto"
 	"golang.org/x/oauth2"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/oauth"
 	"google.golang.org/grpc/metadata"
-	"strings"
 )
 
 type ctxKey string
