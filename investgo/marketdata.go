@@ -3,12 +3,13 @@ package investgo
 import (
 	"context"
 	"fmt"
-	pb "github.com/tinkoff/invest-api-go-sdk/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
 	"os"
 	"strings"
 	"time"
+
+	pb "github.com/therox/invest-api-go-sdk/proto"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/metadata"
 )
 
 type MarketDataServiceClient struct {

@@ -3,13 +3,14 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/tinkoff/invest-api-go-sdk/investgo"
-	"go.uber.org/zap"
 	"log"
 	"os"
 	"os/signal"
 	"sync"
 	"syscall"
+
+	"github.com/therox/invest-api-go-sdk/investgo"
+	"go.uber.org/zap"
 )
 
 func main() {

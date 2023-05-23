@@ -2,10 +2,11 @@ package investgo
 
 import (
 	"context"
-	pb "github.com/tinkoff/invest-api-go-sdk/proto"
+	"time"
+
+	pb "github.com/therox/invest-api-go-sdk/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
-	"time"
 )
 
 type OperationsServiceClient struct {

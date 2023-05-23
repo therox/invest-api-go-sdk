@@ -3,9 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/tinkoff/invest-api-go-sdk/investgo"
-	"go.uber.org/zap"
 	"log"
+
+	"github.com/therox/invest-api-go-sdk/investgo"
+	"go.uber.org/zap"
 )
 
 func main() {

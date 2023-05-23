@@ -1,9 +1,10 @@
 package investgo
 
 import (
-	pb "github.com/tinkoff/invest-api-go-sdk/proto"
-	"google.golang.org/grpc/metadata"
 	"time"
+
+	pb "github.com/therox/invest-api-go-sdk/proto"
+	"google.golang.org/grpc/metadata"
 )
 
 // Orders Service
